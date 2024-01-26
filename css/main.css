@@ -11,9 +11,9 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Container styling */
 .container {
-  max-width: 1080px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 20px;
 }
 
 /* Image styling */
@@ -92,8 +92,23 @@ form button {
 }
 
 /* Responsive layout */
-@media screen and (min-width: 768px)
-
+@media screen and (min-width: 760px) {
   .main-nav {
-    text-align: right;
+    text-align: center;
   }
+
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-content > section {
+    flex: 1;
+    margin-left: 2%;
+  }
+  
+  .contact-section {
+    flex-basis: 100%;
+    margin-right: 2%;
+  }
+}
