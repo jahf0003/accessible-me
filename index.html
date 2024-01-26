@@ -32,7 +32,7 @@
               <a href="#">Studio</a>
             </li>
           </ul>
-        </header>
+      </header>
       </nav>
       <img src="https://placekitten.com/1200/900" class="banner" alt="Cat-image">
     </div>
@@ -52,14 +52,16 @@
         <p> Jambox Studios 123 Guitar Road, Musicville, Danceistan B3T 0L0 </p>
       </div>
       <section class="contact-section">
-        <h1>Contact Us</h1>
-        <form action="thanks.html">
-          <label>Full Name</label>
-          <input type="text" placeholder="Full Name">
-          <input type="text" placeholder="Email">
-          <input type="text" placeholder="Subject">
-          <b>Your Message</b>
-          <textarea></textarea>
+        <h2>Contact Us</h2>
+        <form action="thanks.html" method="post">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email" required>
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject" required>
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
           <button type="submit">Send</button>
         </form>
       </section>
