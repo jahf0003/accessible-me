@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jam Box Studios</title>
-    <!--Google Fonts-->
+    <!-- Linking Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@1,300&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-    <!--linking CSS-->
+    <!-- Linking CSS -->
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    <!-- Skip link -->
     <a href="#main-content" class="skip-link">Skip to the Main Content</a>
     <div class="container">
       <header class="site-header">
         <h1>Jam Box Studios</h1>
-        <nav class="main-nav centered-nav" role="navigation" aria-label="Main Navigation">
+        <!-- Main navigation -->
+        <nav class="main-nav centered-nav" aria-label="Main Navigation">
           <ul>
             <li>
               <a href="#">Home</a>
@@ -32,8 +34,9 @@
               <a href="#">Studio</a>
             </li>
           </ul>
+        </nav>
       </header>
-      </nav>
+      <!-- image -->
       <img src="https://placekitten.com/1200/900" class="banner" alt="Cat-image">
     </div>
     <main class="main-content" id="main-content">
@@ -51,8 +54,9 @@
           </li>
         </ul>
         <h2>Address</h2>
-        <address>
-          <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <!-- Address -->
+        <address itemscope itemtype="http://schema.org/PostalAddress">
+          <p>
             <span itemprop="streetAddress">123 Guitar Road</span>, <br>
             <span itemprop="addressLocality">Musicville</span>, <span itemprop="addressRegion">Danceistan</span>
             <br>
@@ -62,6 +66,7 @@
       </section>
       <section class="contact-section">
         <h2>Contact Us</h2>
+        <!-- Contact form -->
         <form action="thanks.html" method="post">
           <label for="fullName">Full Name</label>
           <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
@@ -75,7 +80,7 @@
         </form>
       </section>
     </main>
-    <footer class="site-footer"> &copy; 2021 Jam Box Studios </footer>
-    </div>
+    <!-- Site footer -->
+    <footer class="site-footer"> © 2021 Jam Box Studios </footer>
   </body>
 </html>
