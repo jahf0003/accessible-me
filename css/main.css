@@ -9,6 +9,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
 
+
 /* Container styling */
 .container {
   max-width: 1200px;
@@ -105,15 +106,16 @@ form button {
   .main-content {
     display: flex;
     flex-wrap: wrap;
+    margin: 1rem;
   }
 
   .main-content > section {
     flex: 1;
-    margin-left: 2%;
+    margin-left: 5%;
   }
   
   .contact-section {
     flex-basis: 100%;
-    margin-right: 2%;
+    margin-right: 5%;
   }
 }
