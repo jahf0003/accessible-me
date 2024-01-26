@@ -36,6 +36,26 @@ img {
   text-align: center;
 }
 
+.centered-nav {
+  text-align: center;
+}
+
+.centered-nav ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+.centered-nav li {
+  display: inline;
+  margin: 0 25px;
+}
+
+.centered-nav a {
+  text-decoration: none;
+}
+
+
 .main-nav ul li a {
   display: block;
   color: inherit;
@@ -43,6 +63,7 @@ img {
   font-size: 200%;
 }
 
+/* Form styles */
 form input,
 form textarea {
   display: block;
@@ -65,6 +86,14 @@ form button {
   text-transform: uppercase;
 }
 
+/* Footer styles */
 .site-footer {
   padding: 2rem 0;
 }
+
+/* Responsive layout */
+@media screen and (min-width: 768px)
+
+  .main-nav {
+    text-align: right;
+  }
