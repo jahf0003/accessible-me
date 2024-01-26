@@ -94,7 +94,8 @@ form button {
 
 /* Footer styles */
 .site-footer {
-  padding: 2rem 0;
+  padding: 1rem;
+  margin-left: 11px;
 }
 
 /* Responsive layout */
